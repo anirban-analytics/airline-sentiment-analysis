@@ -60,7 +60,7 @@ Built an interactive Tableau dashboard for stakeholder-friendly insights
 📈 Dashboard
 🔗 Live Dashboard
 
-👉 (Add your Tableau Public link here — critical for recruiters)
+👉 (https://public.tableau.com/app/profile/anirban.tarafdar/viz/SocialMediaAnalytics_17772726801180/AirlineSocialMediaSentimentDashboard?publish=yes)
 
 📌 Key Views
 Overall Sentiment Distribution
