@@ -1,88 +1,120 @@
-# ✈️ Airline Social Media Sentiment Analysis & Engagement Tracker
+✈️ Airline Social Media Sentiment Analysis & Engagement Intelligence
 
-![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
-![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)
-![NLP](https://img.shields.io/badge/NLP-Text%20Analytics-green)
-![Status](https://img.shields.io/badge/Project-Completed-success)
 
----
 
-## 📌 Project Summary
-A **data analytics + visualization project** that extracts actionable insights from Twitter data to understand customer sentiment toward major U.S. airlines.
 
-This project transforms raw social media data into **business insights** through:
-- Text preprocessing & sentiment analysis  
-- Exploratory Data Analysis (EDA)  
-- Interactive Tableau dashboard  
 
-🔎 **Outcome:** Identifies key drivers of customer dissatisfaction, engagement behavior, and airline performance trends.
 
----
 
-## 🎯 Business Problem
-Airlines receive massive volumes of customer feedback on social media, but:
-- It is **unstructured and noisy**
-- Difficult to extract **actionable insights**
-- Hard to track **sentiment trends over time**
 
-👉 This project solves that by converting raw tweets into **structured insights + visual intelligence**.
+📌 Overview
 
----
+This project analyzes large-scale Twitter data to uncover customer sentiment, engagement patterns, and operational pain points across major U.S. airlines.
 
-## 🚀 Key Highlights
-- 📊 Analyzed **14,000+ tweets** across major airlines  
-- 🧠 Performed **NLP-based text cleaning & feature extraction**  
-- 📉 Identified **top complaint drivers** affecting customer satisfaction  
-- 📈 Built an **interactive Tableau dashboard** for decision-making  
-- 🔍 Delivered **clear, business-focused insights**
+By combining Natural Language Processing (NLP) with interactive data visualization, the project transforms unstructured social media data into actionable business intelligence.
 
----
+⚡ Designed to simulate a real-world analytics use case where companies monitor brand perception and customer experience in real time.
 
-## 📂 Project Structure
-```
-📁 airline-sentiment-analysis
-├── 📁 data
-├── 📁 notebooks
-├── 📁 dashboard
-├── 📁 images
+🎯 Business Objective
+
+Airlines receive thousands of customer interactions daily via social media, but:
+
+Feedback is unstructured and difficult to analyze
+Critical issues are buried in noisy text data
+Decision-makers lack real-time visibility into customer sentiment
+✅ Solution
+
+This project builds an end-to-end pipeline to:
+
+Structure and clean raw tweet data
+Perform sentiment analysis
+Identify key complaint drivers
+Visualize insights through an interactive dashboard
+📊 Key Results & Insights
+~60% of tweets are negative, indicating widespread dissatisfaction
+Customer Service Issues (~2,900 tweets) are the leading complaint category
+Flight Delays (~1,600+) are the second major driver of negative sentiment
+A sharp spike in negative sentiment observed around Feb 22, suggesting potential operational disruption
+United Airlines shows the highest negative sentiment volume
+Engagement analysis reveals uneven customer interaction across airlines
+
+👉 These insights highlight service quality and operational reliability as primary improvement areas.
+
+🧠 Methodology
+1. Data Collection
+Twitter US Airline Sentiment dataset (~14,000+ tweets)
+2. Data Preprocessing (NLP Pipeline)
+Text normalization (lowercasing)
+Removal of URLs, mentions, hashtags, punctuation
+Tokenization
+Stopword removal
+Lemmatization
+3. Exploratory Data Analysis (EDA)
+Sentiment distribution analysis
+Airline-wise sentiment comparison
+Complaint category breakdown
+Time-series trend analysis
+Engagement (retweet) analysis
+4. Visualization
+Built an interactive Tableau dashboard for stakeholder-friendly insights
+📈 Dashboard
+🔗 Live Dashboard
+
+👉 (Add your Tableau Public link here — critical for recruiters)
+
+📌 Key Views
+Overall Sentiment Distribution
+Airline-wise Sentiment Comparison
+Top Complaint Categories
+Sentiment Trend Over Time
+Airline Engagement Performance
+🛠️ Tech Stack
+Programming: Python
+Libraries: Pandas, NumPy, Matplotlib, Seaborn
+NLP: Text preprocessing techniques
+Visualization: Tableau
+Environment: Jupyter Notebook
+Version Control: Git & GitHub
+📂 Project Structure
+airline-sentiment-analysis/
+│
+├── data/              # Raw & processed datasets
+├── notebooks/         # Jupyter notebooks (EDA + NLP)
+├── dashboard/         # Tableau workbook (.twbx)
+├── images/            # Dashboard screenshots
 └── README.md
-```
+💼 Business Impact
 
----
+This project demonstrates how organizations can:
 
-## 🛠️ Tech Stack
-- Python (Pandas, NumPy)
-- Matplotlib, Seaborn
-- NLP Techniques
-- Tableau
-- Jupyter Notebook
-- GitHub
+📉 Detect and reduce customer dissatisfaction
+⚡ Identify operational inefficiencies (delays, service gaps)
+📊 Monitor brand sentiment in near real-time
+🎯 Prioritize improvements based on data-driven insights
+🔮 Future Enhancements
+Build a machine learning model for automated sentiment prediction
+Deploy as a real-time analytics dashboard (Streamlit / web app)
+Integrate live Twitter API streaming
+Perform aspect-based sentiment analysis
+🚀 How to Run
+git clone https://github.com/anirban-analytics/airline-sentiment-analysis.git
+cd airline-sentiment-analysis
+Open notebooks in Jupyter
+Explore dataset in /data
+Open Tableau dashboard from /dashboard
+👤 Author
 
----
+Anirban Tarafdar
+Aspiring Data Analyst | Data Visualization | Business Intelligence
 
-## 📊 Dashboard Preview
-![Dashboard](images/dashboard_preview.png)
+⭐ Acknowledgment
 
----
+Dataset: Twitter US Airline Sentiment Dataset (2015)
 
-## 💡 Key Insights
-- Negative sentiment dominates customer feedback  
-- Customer service & delays are major issues  
-- Engagement varies across airlines  
-- Clear sentiment spikes over time  
+🌟 Support
 
----
+If you found this project useful:
 
-## 🚀 How to Use
-1. Clone the repo  
-2. Open notebook  
-3. Launch Tableau dashboard  
-
----
-
-## 👤 Author
-**Anirban Tarafdar**
-
----
-
-⭐ If you found this useful, give it a star!
+⭐ Star the repository
+🍴 Fork it
+🔗 Share it
